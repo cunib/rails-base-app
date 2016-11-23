@@ -1,5 +1,5 @@
 # rails-base-app
-Rails Base App is a base Rails application template for start new Rails-based apps. It's based on Rails 5 and Ruby 2.3.0.
+Rails Base App is a base Rails application template for start new Rails-based apps. It's based on Rails 5 and Ruby 2.3.0., MySQL as database and Puma as application server.
 
 <h1>Proyect gems</h1>
 <p>A list of all gems included in this template proyect separated by enviroment.</p>
@@ -16,5 +16,8 @@ Rails Base App is a base Rails application template for start new Rails-based ap
 
 <h1>Getting started</h1>
 <h3>1.- Change project name</h3>
+
+<h3>2.- Add database settings</h3>
+
 
 <h3>Credits</h3>

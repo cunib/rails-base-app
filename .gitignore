@@ -7,15 +7,26 @@
 # Ignore bundler config.
 /.bundle
 
-# Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
+# Ignore byebug_history
+/.byebug_history
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
+/log/*.log
+/tmp
+/doc/app
 
-# Ignore Byebug command history file.
-.byebug_history
+# Config files
+/config/database.yml
+.env
+
+# Tests
+/coverage/*
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
+config/puma-config.rb
+spec/views/*
+test/*
+public/uploads/*
+.capistrano
