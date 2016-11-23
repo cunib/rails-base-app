@@ -15,6 +15,6 @@ Rails Base App is a base Rails application template for start new Rails-based ap
 
 
 <h1>Getting started</h1>
-
+<h3>1.- Change project name</h3>
 
 <h3>Credits</h3>
