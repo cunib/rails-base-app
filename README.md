@@ -32,10 +32,20 @@ A list of all gems included in this template proyect separated by enviroment.
 
 
 # Getting started
-First of all, **COPY** the repository instead of clone it!(**DO NOT CLONE THIS REPO**).
+First of all, **COPY** the repository instead of clone it!(**DO NOT CLONE THIS REPO** unless you want to contribute with it).
 ### 1. Change project name
 
 ### 2. Add database settings
 Open `database.yml` file and change user and password database attributes. Also you can change the database name for de app.
 
+## Contributing
+You can contribute updating gems or documentation following the "fork-and-pull" Git workflow.
+...1. **Fork** the repo on GitHub
+...2. **Clone** the project to your own machine
+...3. **Commit** changes to your own branch
+...4. **Push** your work back up to your fork
+...5. Submit a **Pull request** so that we can review your changes
+
+
 ### Credits
+
