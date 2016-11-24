@@ -6,3 +6,7 @@ gem 'rails',                  '~> 5.0.0', '>= 5.0.0.1'
 gem 'mysql2',                 '~> 0.4.4'
 # Use Puma as the app server
 gem 'puma',                   '~> 3.6.0'
+
+# Assets
+gem 'uglifier',                 '>= 1.3.0'
+
