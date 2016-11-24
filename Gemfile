@@ -9,4 +9,6 @@ gem 'puma',                   '~> 3.6.0'
 
 # Assets
 gem 'uglifier',                 '>= 1.3.0'
+gem 'turbolinks',               '~> 5.0.0'
+gem 'nprogress-rails',          '~> 0.2.0.2'
 
