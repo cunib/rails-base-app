@@ -25,3 +25,13 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+# Test tools
+group :test do
+  gem 'factory_girl_rails',       '~> 4.5.0'
+  gem 'rspec-rails',              '~> 3.1.0'
+  gem 'nyan-cat-formatter'
+  gem 'shoulda-matchers',         github: 'thoughtbot/shoulda-matchers'
+  gem 'database_cleaner'
+  gem 'faker'
+end
+

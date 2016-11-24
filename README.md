@@ -21,12 +21,18 @@ A list of all gems included in this template proyect separated by enviroment.
 * [spring-watcher-listen](https://github.com/jonleighton/spring-watcher-listen) Make Spring watch the filesystem for changes using Listen.
 
 ## Test gems
-
+* [factory_girl_rails](https://github.com/thoughtbot/factory_girl_rails) Rails integration for factory_girl.
+* [rspec-rails](https://github.com/rspec/rspec-rails) Testing framework for Rails 3.x, 4.x and 5.0.
+* [nyan-cat-formatter](https://github.com/mattsears/nyan-cat-formatter) Nyan Cat inspired RSpec formatter.
+* [shoulda-matchers](https://github.com/thoughtbot/shoulda-matchers) Collection of testing matchers extracted from Shoulda.
+* [database_cleaner](https://github.com/DatabaseCleaner/database_cleaner) Strategies for cleaning databases in Ruby. Can be used to ensure a clean state for testing.
+* [faker](https://github.com/stympy/faker) A library for generating fake data such as names, addresses, and phone numbers.
 
 # Templates
 
 
 # Getting started
+First of all, **COPY** the repository instead of clone it!(**DO NOT CLONE THIS REPO**).
 ### 1. Change project name
 
 ### 2. Add database settings
