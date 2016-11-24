@@ -40,10 +40,10 @@ Open `database.yml` file and change user and password database attributes. Also 
 
 ## Contributing
 You can contribute updating gems or documentation following the "fork-and-pull" Git workflow.
-1. **Fork** the repo on GitHub.
-2. **Clone** the project to your own machine.
-3. **Commit** changes to your own branch.
-4. **Push** your work back up to your fork.
+1. **Fork** the repo on GitHub.<br>
+2. **Clone** the project to your own machine.<br>
+3. **Commit** changes to your own branch.<br>
+4. **Push** your work back up to your fork.<br>
 5. Submit a **Pull request** so that we can review your changes.
 
 
