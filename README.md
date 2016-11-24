@@ -12,6 +12,13 @@ A list of all gems included in this template proyect separated by enviroment.
 
 
 ## Development gems
+* [rails-erd](https://github.com/voormedia/rails-erd) Generate Entity-Relationship Diagrams for Rails applications.
+* [better_errors](https://github.com/charliesome/better_errors) Better error page for Rack apps.
+* [binding_of_caller](https://github.com/banister/binding_of_caller) Retrieve the binding of a method's caller in MRI 1.9.2+.
+* [web-console](https://github.com/rails/web-console) Rails Console on the Browser.
+* [listen](https://github.com/guard/listen) The Listen gem listens to file modifications and notifies you about the changes.
+* [spring](https://github.com/rails/spring) Rails application preloader.
+* [spring-watcher-listen](https://github.com/jonleighton/spring-watcher-listen) Make Spring watch the filesystem for changes using Listen.
 
 ## Test gems
 
@@ -23,6 +30,6 @@ A list of all gems included in this template proyect separated by enviroment.
 ### 1. Change project name
 
 ### 2. Add database settings
-
+Open `database.yml` file and change user and password database attributes. Also you can change the database name for de app.
 
 ### Credits
