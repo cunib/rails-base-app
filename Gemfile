@@ -19,6 +19,11 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-select2',          '~> 3.5.2'
 end
 
+# Use SCSS for stylesheets
+gem 'sass-rails',           '~> 5.0.6'
+gem 'bootstrap-sass', '~> 3.3.6'
+
+
 group :development do
   gem 'rails-erd',              '~> 1.4.6'
   gem 'better_errors',          '~> 1.1.0'
