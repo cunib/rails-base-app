@@ -32,6 +32,8 @@ gem 'ransack',                 '~> 1.8.2'
 # Responders (for DRY flash behaviour)
 gem 'responders',               '~> 2.2.0'
 
+# Forms
+gem 'simple_form',                     '~> 3.3.1'
 
 # Configurations
 gem 'config', '~> 1.3.0'

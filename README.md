@@ -27,6 +27,8 @@ A list of all gems included in this template proyect separated by enviroment.
 ###### DRY controllers
 * [responders](https://github.com/plataformatec/responders) A set of Rails responders to dry up your application.
 
+###### Forms
+* [simple-form](https://github.com/plataformatec/simple_form) Forms made easy for Rails! It's tied to a simple DSL, with no opinion on markup.
 
 ###### Configuration files
 * [config](https://github.com/railsconfig/config) Easiest way to add multi-environment yaml settings to Rails.
