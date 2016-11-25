@@ -23,6 +23,10 @@ A list of all gems included in this template proyect separated by enviroment.
 ###### Filter
 * [ransack](https://github.com/activerecord-hackery/ransack) Object-based searching.
 
+
+###### Configuration files
+* [config](https://github.com/railsconfig/config) Easiest way to add multi-environment yaml settings to Rails.
+
 ## Development gems
 * [rails-erd](https://github.com/voormedia/rails-erd) Generate Entity-Relationship Diagrams for Rails applications.
 * [better_errors](https://github.com/charliesome/better_errors) Better error page for Rack apps.

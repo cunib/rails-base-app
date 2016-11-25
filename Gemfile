@@ -29,6 +29,10 @@ gem 'kaminari',               '~> 0.17.0'
 # Filters 
 gem 'ransack',                 '~> 1.8.2'
 
+
+# Configurations
+gem 'config', '~> 1.3.0'
+
 group :development do
   gem 'rails-erd',              '~> 1.4.6'
   gem 'better_errors',          '~> 1.1.0'
