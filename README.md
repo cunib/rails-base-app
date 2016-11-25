@@ -11,10 +11,12 @@ A list of all gems included in this template proyect separated by enviroment.
 * [nprogress-rails](https://github.com/caarlos0/nprogress-rails) Ruby gem for asset pipeline which includes the version 0.2.0 of the rstacruz' nprogress library.
 * [rails-assets-jquery](https://rails-assets.org/) jquery for Rails from rails-assets.
 * [rails-assets-jquery-ujs](https://rails-assets.org/) Ruby on Rails unobtrusive scripting adapter for jQuery from rails-assets.
-* [rails-assets-select2](https://rails-assets.org/) Integrate Select2 javascript library with Rails asset pipeline select2 from rails-assets.
+* [rails-assets-select2](https://rails-assets.org/) Integrate Select2 javascript library with Rails asset pipeline select2 from rails-assets.  
 ###### Stylesheets
 * [sass-rails](https://github.com/rails/sass-rails) Ruby on Rails stylesheet engine for Sass (Dependency for bootstrap-sass gem).
-* [bootstrap-sass](https://github.com/twbs/bootstrap-sass) Official Sass port of Bootstrap 2 and 3.
+* [bootstrap-sass](https://github.com/twbs/bootstrap-sass) Official Sass port of Bootstrap 2 and 3.  
+###### Pager
+* [kaminary](https://github.com/amatsuda/kaminari) A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Ruby webapps.
 
 ## Development gems
 * [rails-erd](https://github.com/voormedia/rails-erd) Generate Entity-Relationship Diagrams for Rails applications.
@@ -58,4 +60,4 @@ You can contribute updating gems or documentation following the "fork-and-pull" 
 
 
 ### Credits
-rails-base-app was created by [Hugo Barreña](https://github.com/cunib).
+rails-base-app was created and is maintained by [Hugo Barreña](https://github.com/cunib).

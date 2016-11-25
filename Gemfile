@@ -23,6 +23,9 @@ end
 gem 'sass-rails',           '~> 5.0.6'
 gem 'bootstrap-sass', '~> 3.3.6'
 
+# Pager
+gem 'kaminari',               '~> 0.17.0'
+
 
 group :development do
   gem 'rails-erd',              '~> 1.4.6'
