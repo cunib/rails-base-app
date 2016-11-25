@@ -12,9 +12,11 @@ A list of all gems included in this template proyect separated by enviroment.
 * [rails-assets-jquery](https://rails-assets.org/) jquery for Rails from rails-assets.
 * [rails-assets-jquery-ujs](https://rails-assets.org/) Ruby on Rails unobtrusive scripting adapter for jQuery from rails-assets.
 * [rails-assets-select2](https://rails-assets.org/) Integrate Select2 javascript library with Rails asset pipeline select2 from rails-assets.  
+
 ###### Stylesheets
 * [sass-rails](https://github.com/rails/sass-rails) Ruby on Rails stylesheet engine for Sass (Dependency for bootstrap-sass gem).
 * [bootstrap-sass](https://github.com/twbs/bootstrap-sass) Official Sass port of Bootstrap 2 and 3.  
+
 ###### Pager
 * [kaminary](https://github.com/amatsuda/kaminari) A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Ruby webapps.
 
