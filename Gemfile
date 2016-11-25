@@ -26,6 +26,8 @@ gem 'bootstrap-sass', '~> 3.3.6'
 # Pager
 gem 'kaminari',               '~> 0.17.0'
 
+# Filters 
+gem 'ransack',                 '~> 1.8.2'
 
 group :development do
   gem 'rails-erd',              '~> 1.4.6'

@@ -20,6 +20,9 @@ A list of all gems included in this template proyect separated by enviroment.
 ###### Pager
 * [kaminary](https://github.com/amatsuda/kaminari) A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Ruby webapps.
 
+###### Filter
+* [ransack](https://github.com/activerecord-hackery/ransack) Object-based searching.
+
 ## Development gems
 * [rails-erd](https://github.com/voormedia/rails-erd) Generate Entity-Relationship Diagrams for Rails applications.
 * [better_errors](https://github.com/charliesome/better_errors) Better error page for Rack apps.
