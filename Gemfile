@@ -12,6 +12,12 @@ gem 'uglifier',                 '>= 1.3.0'
 gem 'turbolinks',               '~> 5.0.0'
 gem 'nprogress-rails',          '~> 0.2.0.2'
 
+## Jquery
+source 'https://rails-assets.org' do
+  gem 'rails-assets-jquery',           '~> 1.11'
+  gem 'rails-assets-jquery-ujs',       '~> 1.0'
+  gem 'rails-assets-select2',          '~> 3.5.2'
+end
 
 group :development do
   gem 'rails-erd',              '~> 1.4.6'

@@ -9,7 +9,9 @@ A list of all gems included in this template proyect separated by enviroment.
 * [uglifier](https://github.com/lautis/uglifier) Ruby wrapper for UglifyJS JavaScript compressor.
 * [turbolinks](https://github.com/turbolinks/turbolinks) Turbolinks makes navigating your web application faster.
 * [nprogress-rails](https://github.com/caarlos0/nprogress-rails) Ruby gem for asset pipeline which includes the version 0.2.0 of the rstacruz' nprogress library.
-
+* [rails-assets-jquery](https://rails-assets.org/) jquery for Rails from rails-assets.
+* [rails-assets-jquery-ujs](https://rails-assets.org/) Ruby on Rails unobtrusive scripting adapter for jQuery from rails-assets.
+* [rails-assets-select2](https://rails-assets.org/) Integrate Select2 javascript library with Rails asset pipeline select2 from rails-assets.
 
 ## Development gems
 * [rails-erd](https://github.com/voormedia/rails-erd) Generate Entity-Relationship Diagrams for Rails applications.
@@ -29,7 +31,8 @@ A list of all gems included in this template proyect separated by enviroment.
 * [faker](https://github.com/stympy/faker) A library for generating fake data such as names, addresses, and phone numbers.
 
 # Templates
-
+This project has predefined *generators templates* for CRUD views and controllers. If you run a *scaffold* it would use those templates to generate the views and controllers with an specific layout.  
+> You can customize this templates modiffing the files in `lib/templates`. 
 
 # Getting started
 First of all, **COPY** the repository instead of clone it!(**DO NOT CLONE THIS REPO** unless you want to contribute with it).
@@ -37,6 +40,10 @@ First of all, **COPY** the repository instead of clone it!(**DO NOT CLONE THIS R
 
 ### 2. Add database settings
 Open `database.yml` file and change user and password database attributes. Also you can change the database name for de app.
+### 3. Create and migrate database
+Run `rake db:create db:migrate` command to create and migrate the database.
+### 4. Start the serve
+Run `rails server` access localhost:3000 in your browser and...**voilá!!**. You are done.
 
 ## Contributing
 You can contribute updating gems or documentation following the "fork-and-pull" Git workflow.  
