@@ -1,5 +1,6 @@
 # rails-base-app
 Rails Base App is a base Rails application template for start new Rails-based apps. It's based on Rails 5 and Ruby 2.3.0., MySQL as database and Puma as application server.
+It has a basic set of gems I usually use in all projects I work. Also it has scaffold templates with this gems integrated to fast and easy build "ready-to-use" CRUD's.
 
 # Proyect gems
 A list of all gems included in this template proyect separated by enviroment.
@@ -22,6 +23,9 @@ A list of all gems included in this template proyect separated by enviroment.
 
 ###### Filter
 * [ransack](https://github.com/activerecord-hackery/ransack) Object-based searching.
+
+###### DRY controllers
+* [responders](https://github.com/plataformatec/responders) A set of Rails responders to dry up your application.
 
 
 ###### Configuration files

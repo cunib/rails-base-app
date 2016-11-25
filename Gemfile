@@ -29,6 +29,9 @@ gem 'kaminari',               '~> 0.17.0'
 # Filters 
 gem 'ransack',                 '~> 1.8.2'
 
+# Responders (for DRY flash behaviour)
+gem 'responders',               '~> 2.2.0'
+
 
 # Configurations
 gem 'config', '~> 1.3.0'
