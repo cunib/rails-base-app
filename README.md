@@ -56,20 +56,23 @@ This project has predefined *generators templates* for CRUD views and controller
 
 # Getting started
 ### 1. Clone this repository
-Clone application as new project with original repository named "rails-base-app".  
+Clone this project as a new project with original repository named "rails-base-app" and set your own project name.  
 `$ git clone git@github.com:cunib/rails-base-app.git --origin rails-base-app [MY-NEW-PROJECT]`
-### 2. Create a new repo
-Create your new repo on GitHub and push master into it. Make sure master branch is tracking origin repo.
+### 3. Create a new repo
+Move to [MY-NEW-PROYECT] folder. Change or delete `README.md` content  
+`$ cd [MY-NEW-PROYECT]`  
+### 3. Create a new repo
+Create your new repo on your GitHub and push master into it. Make sure master branch is tracking origin repo.  
 `$ git remote add origin git@github.com:[MY-GITHUB-ACCOUNT]/[MY-NEW-PROJECT].git`  
 `$ git push -u origin master`  
-### 3. Change project name (**optional**)
-Find and replace all ocurrencies of "rails-base-app" with an appropriate name for your app.
+### 4. Change project name (**optional**)
+Find and replace all ocurrencies of "rails-base-app" with an appropriate name for your app.  
 `$ grep -ri rails-base-app`
-### 4. Add database settings
+### 5. Add database settings
 Open `database.yml` file and change user and password database attributes. Also you can change the database name for de app.
-### 5. Create and migrate database
+### 6. Create and migrate database
 Run `rake db:create db:migrate` command to create and migrate the database.
-### 6. Start the serve
+### 7. Start the serve
 Run `rails server` access localhost:3000 in your browser and...**voilá!!**. You are done.
 
 ## Contributing
