@@ -1,6 +1,5 @@
 # rails-base-app
-Rails Base App is a base Rails application template for start new Rails-based apps. It's based on Rails 5 and Ruby 2.3.0., MySQL as database and Puma as application server.
-It has a basic set of gems I usually use in all projects I work. Also it has scaffold templates with this gems integrated to fast and easy build "ready-to-use" CRUD's.
+Rails Base App is a base Rails application template for start new Rails-based apps. It's based on Rails 5 and Ruby 2.3.0., MySQL as database and Puma as application server.It has a basic set of gems I usually use in most projects I work. Also it has scaffold templates with this gems integrated to fast and easy build "ready-to-use" CRUD's.
 
 # Proyect gems
 A list of all gems included in this template proyect separated by enviroment.
@@ -52,7 +51,7 @@ A list of all gems included in this template proyect separated by enviroment.
 
 # Templates
 This project has predefined *generators templates* for CRUD views and controllers. If you run a *scaffold* it would use those templates to generate the views and controllers with an specific layout.  
-> You can customize this templates modiffing the files in `lib/templates`. 
+> You can customize these templates modiffing the files in `lib/templates`. 
 
 # Getting started
 ### 1. Clone this repository
@@ -85,4 +84,5 @@ You can contribute updating gems or documentation following the "fork-and-pull" 
 
 
 ### Credits
-rails-base-app was created and is maintained by [Hugo Barreña](https://github.com/cunib).
+rails-base-app was created and is maintained by [Hugo Barreña](https://github.com/cunib).  
+> A Railsear con Hugo!.
