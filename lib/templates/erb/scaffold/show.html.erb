@@ -1,0 +1,28 @@
+<div class="page-header">
+  <div class="row">
+    <div class="col-md-10">
+      <h1><%%= t '.title', default: t('global.show.title') %></h1>
+    </div>
+    <div class="col-md-2">
+      <div class="actions">
+        <%%= link_to icon('chevron-left'), <%= index_helper %>_path, 
+          class: 'btn btn-default', data: { toggle: 'tooltip', container: 'body' }, 
+          title: t('.back', default: t('global.actions.back')) %>
+        <%%= link_to icon('pencil'), edit_<%= singular_table_name %>_path(@<%= singular_table_name %>), 
+          class: 'btn btn-primary', data: { toggle: 'tooltip', container: 'body' }, 
+          title: t('.back', default: t('global.actions.edit')) %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <dl class="dl-horizontal">
+      <%- attributes.each do |attribute| -%>
+        <dt><%= attribute.human_name %>:</dt>
+        <dd><%%= @<%= singular_table_name %>.<%= attribute.name %> %></dd>
+      <%- end -%>
+    </dl>
+  </div>
+</div>

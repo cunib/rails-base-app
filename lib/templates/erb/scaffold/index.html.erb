@@ -1,0 +1,72 @@
+<div class="page-header">
+  <div class="actions">
+    <%%= link_to icon('plus'), new_<%= singular_table_name %>_path, 
+      class: 'btn btn-success', data: { toggle: 'tooltip', container: 'body' }, 
+      title: t('<%= plural_table_name %>.actions.new', default: t('global.actions.new')) %>
+  </div>
+
+  <div class="search">
+    <%%= search_form_for @q do |f| -%>
+    <div class="input-group">
+      <%%= f.input_field :<% attributes.first.try(:name) || 'name' %>_cont, 
+        class: 'form-control', placeholder: t('.search', default: t('global.index.search')) %>
+        <span class="input-group-btn">
+          <%%- if @q.conditions.any? %>
+            <%%= link_to applications_path, class: 'btn btn-default' do -%>
+          &times;
+          <%% end -%>
+          <%% end -%>
+          <button type="submit" class="btn btn-default">
+            <%%= icon('search') %>
+          </button>
+        </span>
+    </div>
+    <%% end -%>
+  </div>
+
+  <h1><%%= t '.title' %></h1>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <% attributes.each do |attribute| %>
+        <th><%%= t 'activerecord.attributes.<%= singular_table_name %>.<%= attribute.name %>' %></th>
+      <% end -%>
+      <th class="actions"><%%= t '.actions', default: t('global.index.actions') %></th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <%%= @<%= plural_table_name %>.each do |<%= singular_table_name %>| -%>
+      <tr>
+        <% attributes.each do |attribute| -%>
+          <td><%%= <%= singular_table_name %>.<%= attribute.name %> %></td>
+        <% end -%>
+        <td>
+          <div class="btn-toolbar btn-group-xs">
+            <%%= link_to icon('eye-open'), <%= singular_table_name %>,
+              class: 'btn btn-link',
+              title: t('<%= plural_table_name %>.actions.show', default: t('global.actions.show')),
+              data: { toggle: 'tooltip', container: 'body', placement: 'left' } %>
+            <%%= link_to icon('pencil'), edit_<%= singular_table_name %>_path(<%= singular_table_name %>),
+              class: 'btn btn-link',
+              title: t('<%= plural_table_name %>.actions.edit', default: t('global.actions.edit')),
+              data: { toggle: 'tooltip', container: 'body', placement: 'left' } %>
+            <%%= link_to icon('trash'), <%= singular_table_name %>,  method: :delete,
+              class: 'btn btn-link text-danger',
+              title: t('<%= plural_table_name %>.actions.destroy', default: t('global.actions.destroy')),
+              data: { toggle: 'tooltip', container: 'body', placement: 'left', 
+                      confirm: t('<%= plural_table_name %>.actions.confirm_destroy', 
+                                 default: t('global.actions.confirm_destroy'))} %>
+          </div>
+        </td>
+      </tr>
+    <%% end -%>
+    </tbody>
+  </table>
+
+  <%%= render partial:'shared/pager', locals: { model: @<%= plural_table_name %> } %>
+
+</div>

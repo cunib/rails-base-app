@@ -1,0 +1,19 @@
+<div class="page-header">
+  <div class="row">
+    <div class="col-md-10">
+      <h1><%%= t '.title', default: t('global.edit.title') %></h1>
+    </div>
+    <div class="col-md-2">
+      <div class="actions">
+        <%%= link_to icon('chevron-left'), <%= index_helper %>_path, 
+          class: 'btn btn-default', data: { toggle: 'tooltip', container: 'body' }, 
+          title: t('.back', default: t('global.actions.back')) %>
+        <%%= link_to icon('eye-open'), @<%= singular_table_name %>, 
+          class: 'btn btn-default', data: { toggle: 'tooltip', container: 'body' }, 
+          title: t('.show', default: t('global.actions.show')) %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%%= render 'form' %>
